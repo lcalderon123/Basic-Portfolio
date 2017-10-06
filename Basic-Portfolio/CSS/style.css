@@ -1,0 +1,404 @@
+
+body { 
+		background: url(http://unrestrictedstock.com/wp-content/uploads/2010/12/P1040994-edit.jpg) 
+		no-repeat center center fixed; 
+  		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+  		}
+
+ #name {
+ 	width: 960px; 
+ 	height: 100px; 
+ 	background-color: white; 
+ 	font-size: 120% 
+ 	font-weight: bold; 
+ 	margin-left: 100px;
+ 	position: absolute;
+ 	top: 0px;
+	z-index: 1
+
+
+}
+
+
+
+#name2 { 
+	width: 250px; 
+	height: 100px; 
+	background-color: #4aaaa5; 
+	color: white; 
+	font-size: 200%; 
+	margin-left: 50px; 
+	font-weight: bold; 
+	text-align: center; 
+	display: flex; 
+	align-items: center; 
+	justify-content: center;
+	position: absolute; 
+	z-index: 2;
+	font-family: 'Georgia'
+
+}
+
+a {
+	color: #777777;
+	background-color: white;
+	text-decoration: none;
+}
+
+a:hover {
+
+	
+	color: #4aaaa5;
+	font-style: italic;
+}
+
+
+#table {
+	position: absolute;
+	width: 600px
+	height: 100px;
+	display: flex;
+	z-index: 3
+	justify-content: center;
+	right: 20px;
+	bottom: 40px;
+	font-size: 160%;
+	color: #777777;
+	font-family: 'Georgia';
+
+	
+
+}
+
+#th1 {
+	
+	
+	right: 300px;
+	border-right:thin #777777 solid; 
+	position:absolute; 
+	height:30px;
+	padding-right: 30px;
+	color: #777777;
+	
+	
+}
+
+
+
+#th2 {
+
+	
+	border-right:thin #777777 solid; 
+	position:absolute; 
+	height:30px;
+	padding-right: 30px;
+	right: 140px;
+	
+
+}
+
+#th3 {
+
+	position: absolute;
+	right: 20px;
+
+}
+
+
+
+
+h2 {
+	margin-left: 50px;
+	font-size: 160%;
+	margin-left: 50px;
+	font-family: 'Georgia';
+	
+	}
+
+input[type=text] {
+
+		width: 620px;
+		height: 40px;
+		margin-top: 10px;
+		margin-bottom: 10px;	
+
+
+}
+
+input[type=email]{
+
+
+		width: 620px;
+		height: 40px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		
+		
+		
+
+
+}
+
+textarea {
+
+		width: 620px;
+		height: 150px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		
+		
+
+
+}
+
+input[type=submit]{
+
+
+		width: 100px;
+		height: 30px;
+		background-color: #4aaaa5;
+		color: white;
+		margin: 10px;
+		
+}
+
+#form {
+
+		color: grey;
+		margin-left: 10px;
+
+}
+
+
+
+#about-me {
+	width: 650px; 
+	height: 450px; 
+	background-color: white; 
+	font-size: 130%; 
+	margin-left: 100px; 
+	margin-top: 150px; 
+	margin-bottom: 10px
+	font-weight: bold; 
+	float: left; 
+	text-align: left;
+	padding-top: 20px; 
+	padding-right: 20px; 
+	padding-bottom: 80px; 
+	padding-left:20px; 
+	color: #4aaaa5;
+	font-family: 'sans-serif';
+
+}
+
+#about-me2 {
+	width: 650px; 
+	height: 600px; 
+	background-color: white; 
+	font-size: 130%; 
+	margin-left: 100px; 
+	margin-top: 150px; 
+	margin-bottom: 10px
+	font-weight: bold; 
+	float: left; 
+	text-align: left;
+	padding-top: 20px; 
+	padding-right: 20px; 
+	padding-bottom: 80px; 
+	padding-left:20px; 
+	color: #4aaaa5;
+}
+
+.text {
+	color: grey
+
+}
+
+#connect-with-me {
+	width: 240px; 
+	height: 150px; 
+	background-color: white; 
+	font-size: 150%; 
+	float: left; 
+	margin-left: 30px; 
+	margin-top: 150px; 
+	color: #4aaaa5; 
+	text-align: center; 
+	padding-top: 40px;
+	font-family: 'Georgia'
+
+
+}
+
+#portfolio {
+	width: 640px;
+	height: 600px;
+	float: left;
+	margin-left: 50px;
+	
+
+}
+
+
+
+#dance {
+	width: 200px;
+	height: 35px;
+	background-color: #4aaaa5; 
+	color: white; 
+	font-size: 70%; 
+	margin-left: 50px; 
+	font-weight: bold; 
+	text-align: center; 
+	display: flex; 
+	align-items: center; 
+	justify-content: center;
+	position: absolute; 
+	z-index: 2;
+	top: 380px;
+	left: 168px;
+	
+
+}
+
+#nature {
+	width: 200px;
+	height: 35px;
+	background-color: #4aaaa5; 
+	color: white; 
+	font-size: 70%; 
+	margin-left: 50px; 
+	font-weight: bold; 
+	text-align: center; 
+	display: flex; 
+	align-items: center; 
+	justify-content: center;
+	position: absolute; 
+	z-index: 2;
+	top: 380px;
+	left: 413px;
+
+}
+
+#headphones {
+	width: 200px;
+	height: 35px;
+	background-color: #4aaaa5; 
+	color: white; 
+	font-size: 70%; 
+	margin-left: 50px; 
+	font-weight: bold; 
+	text-align: center; 
+	display: flex; 
+	align-items: center; 
+	justify-content: center;
+	position: absolute; 
+	z-index: 2;
+	left: 168px;
+	bottom: 355px;
+}
+
+#city {
+	width: 200px;
+	height: 35px;
+	background-color: #4aaaa5; 
+	color: white; 
+	font-size: 70%; 
+	margin-left: 50px; 
+	font-weight: bold; 
+	text-align: center; 
+	display: flex; 
+	align-items: center; 
+	justify-content: center;
+	position: absolute; 
+	z-index: 2;
+	left: 413px;
+	bottom: 355px;
+}
+
+#beer {
+
+	width: 200px;
+	height: 35px;
+	background-color: #4aaaa5; 
+	color: white; 
+	font-size: 70%; 
+	margin-left: 50px; 
+	font-weight: bold; 
+	text-align: center; 
+	display: flex; 
+	align-items: center; 
+	justify-content: center;
+	position: absolute; 
+	z-index: 2;
+	left: 168px;
+	bottom: 185px;
+}
+
+
+#logos {
+ 	position: absolute;
+ 	
+
+ 
+}
+
+#stack {
+
+	margin-left: 0px;
+	position: absolute;
+	left: 20px;
+
+}
+
+#git {
+	position: absolute;
+	right: -140px;
+
+
+}
+
+#Linked {
+	
+	position: absolute;
+	left: 160px;
+
+	
+	
+}
+
+
+footer {
+	position: absolute;
+	width: 960px; 
+	height: 50px; 
+	background-color: grey; 
+	font-size: 80%; 
+	text-align: center; 
+	font-weight: italic; 
+	margin-left: 100px; 
+	float: left; 
+	padding-top: 80px; 
+	color: white; 
+	bottom: 0; 
+	border-top: thick double #4aaaa5
+
+
+
+
+}
+
+
+
+
+
+
+#content { 
+	width: 960px
+	margin: 0 auto;
+
+
+}
